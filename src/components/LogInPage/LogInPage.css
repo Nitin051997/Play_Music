@@ -1,0 +1,132 @@
+.spotify-login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.spotify-login-container {
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px 5px 30px 5px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 6px 10px rgba(124, 120, 120, 0.2);
+}
+
+.spotify-login-container div {
+    margin-top: 20px;
+}
+
+.spotify-login-container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.spotify-login-container-img {
+    width: 100px;
+    height: 100px;
+}
+
+.spotify-login-container-tag {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.spotify-login-container-google {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 280px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.spotify-login-container-google:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.spotify-login-container-google-img {
+    width: 48px;
+    height: 48px;
+}
+
+.spotify-login-container-google-tag {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.spotify-thin-line-divider {
+    width: 350px;
+    height: 1px;
+    background-color: grey;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+}
+
+.spotify-login-container-login div {
+    margin-top: 0px;
+}
+
+.spotify-login-container-login-label {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.spotify-login-container-login-input {
+    width: 244px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-top: 5px !important;
+}
+
+input {
+    width: 240px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.spotify-login-container-login-input input:focus {
+    outline: none;
+    border: 3px solid white;
+}
+
+.spotify-login-container-login-btn {
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-highlight, #3be477);
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.spotify-login-container-login-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
